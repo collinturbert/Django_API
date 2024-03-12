@@ -1,0 +1,1 @@
+represents the probability of the number of successive failures before a success is obtained in a Bernoulli trial. A Bernoulli trial is an experiment that can have only two possible outcomes, ie., success or failure. In other words, in a geometric distribution, a Bernoulli trial is repeated until success is obtained and then stopped.
