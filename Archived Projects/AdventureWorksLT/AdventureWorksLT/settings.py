@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-i-)rwoe^e%*xl6*1wrmoy_j1g@35vf25h#$c9&h$ylb8%3r&gn"
+SECRET_KEY = "django-insecure-d%ghau^8whgl&8bm+(pb2x^3%^r_@l^5o45v5_aq!btrfu*3!n"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "dashboard",
+    'AWLT',
 ]
 
 MIDDLEWARE = [
@@ -56,7 +56,7 @@ ROOT_URLCONF = "AdventureWorksLT.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR/'templates'],
+        "DIRS": [],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -90,7 +90,7 @@ DATABASES = {
         'PASSWORD': '!Shookading208',
 
          # String. SQL Server instance in "server\instance" format.
-        'HOST': 'tcp:vesl.database.windows.net',
+        'HOST': 'vesl.database.windows.net',
 
         # String. Server instance port. An empty string means the default port.
         'PORT': '1433',

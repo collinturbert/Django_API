@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Customer</title>
+</head>
+<body>
+	<h2>Customer</h2>
+	{% for customer in Customers %}
+	- {{ customer.firstname }} {{ customer.lastname }}<br>
+	{% endfor %}
+</body>
+</html>
