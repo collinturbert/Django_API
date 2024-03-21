@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>VESL Clients</title>
+</head>
+<body>
+	<h2>Client</h2>
+	{% for client in Clients %}
+	- {{ client.ClientID }} {{ client.CompanyName }}<br>
+	{% endfor %}
+</body>
+</html>
